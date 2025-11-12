@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventario Razor Crest</title>
+    <link rel="stylesheet" href="estilos-mando.css">
+</head>
+<body>
+
+    <header role="banner" class="header-mando">
+        <h1>Sistema de Inventario (Razor Crest)</h1>
+    </header>
+
+    <main id="inventario-principal" role="main" aria-labelledby="seccion-principal">
+        <h2 id="seccion-principal">Módulo de Carga 1 - Armamento</h2>
+        
+        <section class="contenedor-armas" aria-label="Armamento de Din Djarin">
+            <h3 class="seccion-titulo">ARMAS PRINCIPALES</h3>
+            
+            <article class="articulo arma" role="listitem" aria-describedby="descripcion-rifle">
+                <h4>Rifle Amban</h4>
+                <p id="descripcion-rifle">Arma de pulso y francotirador.</p>
+            </article>
+
+            <hr class="separador-chequeo" aria-hidden="true"> 
+            
+            <article class="articulo arma" role="listitem" aria-describedby="descripcion-blaster">
+                <h4>Pistola Blaster IQA-11</h4>
+                <p id="descripcion-blaster">Revisión pendiente.</p>
+            </article>
+            
+            <article class="articulo arma" role="listitem">
+                <h4>Lanzallamas</h4>
+                <p>Combustible al 90%.</p>
+            </article>
+        </section>
+        
+        <hr class="separador-seccion" aria-hidden="true">
+        
+        <section class="contenedor-recursos" aria-label="Recursos y miscelánea">
+            <h3 class="seccion-titulo">RECURSOS</h3>
+            
+            <article class="articulo recurso" role="listitem">
+                <h4>Acero Beskar (Lingote)</h4>
+                <p>Alta pureza, 1 unidad.</p>
+            </article>
+
+            <article class="articulo recurso rara" role="listitem">
+                <h4>Rana Kukri</h4>
+                <p>Suministro de emergencia para Grogu.</p>
+            </article>
+
+            <ul class="lista-detalles">
+                <li><p class="detalle-linea">Cuerdas de captura</p></li>
+                <li><p class="detalle-linea">Botiquín de primeros auxilios</p></li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer role="contentinfo">
+        <p>This is the way. &copy; Din Djarin, 9 DBY</p>
+    </footer>
+
+</body>
+</html>
