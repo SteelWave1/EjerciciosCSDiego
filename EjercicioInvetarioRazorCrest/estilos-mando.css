@@ -4,7 +4,7 @@
     
 }
 body{
-    background-color: rgb(37, 37, 37);
+    background-color:black;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -16,10 +16,10 @@ body{
     
 }
 #inventario-principal{
-    background-color: grey;
     border: 2px solid grey;
     margin-left: 22%;
     margin-right: 22%;
+    border: 8px solid grey;
 }
 #seccion-principal{
     color: rgb(16, 241, 148);
@@ -35,13 +35,22 @@ section h3{
 }
 
 article h4{
+    background-color: black;
     color: whitesmoke;
+    margin: 2%;
 }
 
-.articulo arma{
-
+article p{
+    background-color: black;
+    color: whitesmoke;
+    padding-bottom: 1%;
 }
 
 footer{
-
+    margin-top: 1%;
+    background-color: rgb(37, 37, 37);
+    color: aliceblue;
+    padding-bottom: 5%;
 }
+
+
